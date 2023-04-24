@@ -52,12 +52,12 @@ In the project directory, you can run:
 #### 4 Run seed script to seed the database
 #### 5. Add envirormental variables: 
 
-PORT = 3001
-CORS_ORIGIN = "https://dev-games3-frontend-413oq8crp-mariacruzschena.vercel.app"
-DB_NAME = "devgames3"
-DB_USER = null
-DB_PASSWORD =  null
-DB_HOST = "localhost"
-DB_DIALECT = "postgres"
-JWT_SECRET = "A1Z9"
+PORT = 3001 <br/>
+CORS_ORIGIN = "https://dev-games3-frontend-413oq8crp-mariacruzschena.vercel.app" <br/>
+DB_NAME = "devgames3" <br/>
+DB_USER = null <br/>
+DB_PASSWORD =  null <br/>
+DB_HOST = "localhost" <br/>
+DB_DIALECT = "postgres" <br/>
+JWT_SECRET = "A1Z9" <br/>
 
