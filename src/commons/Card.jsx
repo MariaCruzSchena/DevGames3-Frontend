@@ -29,7 +29,12 @@ const Card = ({
       <div className="cardContent">
         <div className="cardSubconteiner">
           <span className="cardTitle">{singleGame.name}</span>
-          {user?.isAdmin ? (
+          
+        </div>
+        {/* <span className="cardRanking">
+          <GridRating />
+        </span> */}
+        {user?.isAdmin ? (
             <AdminCardBtns
               singleGame={singleGame}
               open={open}
@@ -40,10 +45,6 @@ const Card = ({
               handleAdminDeleteProduct={handleAdminDeleteProduct}
             />
           ) : null}
-        </div>
-        <span className="cardRanking">
-          <GridRating />
-        </span>
         <div className="cardSubcontainerB">
           {user?.isAdmin ? null : (
             <>

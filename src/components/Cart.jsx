@@ -16,7 +16,7 @@ const Cart = () => {
   const cartTotalPrice = useSelector((state) => state.cartTotalPrice);
 
   //Variables
-  const total = cart.reduce((acc, el) => acc + el.price, 0);
+  const total = parseInt(cart.reduce((acc, el) => acc + el.price, 0));
 
   //Handlers
   const deleteItemHandler = (item) => {
