@@ -46,7 +46,18 @@ In the project directory, you can run:
     You may also see any lint errors in the console.
 
 ## To use the deployed version 
-#### 1. Create a dclone the backend repository
+#### 1. Clone the backend repository
 #### 2. Install dependencies 
-#### 3. run seed script to seed the database
+#### 3. Create a database named devgames3
+#### 4 Run seed script to seed the database
+#### 5. Add envirormental variables: 
+
+PORT = 3001
+CORS_ORIGIN = "https://dev-games3-frontend-413oq8crp-mariacruzschena.vercel.app"
+DB_NAME = "devgames3"
+DB_USER = null
+DB_PASSWORD =  null
+DB_HOST = "localhost"
+DB_DIALECT = "postgres"
+JWT_SECRET = "A1Z9"
 
