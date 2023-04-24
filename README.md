@@ -2,6 +2,7 @@
 
 Name: DevGames3
 Backend team: Sergio Genes, Alan Figueroa, Fabio Alessandro. 
+<br/>
 Frontend team: Francisco Garcia, Alex Duran, Maria Cruz Schena. 
 
 ## About the frontend
@@ -44,5 +45,8 @@ In the project directory, you can run:
     The page will reload when you make changes.\
     You may also see any lint errors in the console.
 
-
+##To use the deployed version 
+####1. Create a dclone the backend repository
+####2. Install dependencies 
+####3. run seed script to seed the database
 
